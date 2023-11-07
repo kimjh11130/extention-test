@@ -3206,6 +3206,11 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
+chrome-types@^0.1.240:
+  version "0.1.240"
+  resolved "https://registry.yarnpkg.com/chrome-types/-/chrome-types-0.1.240.tgz#7d3069e613b9c1caa347c72788dca2dbcf7e832e"
+  integrity sha512-oF+HVNxu3MLJor4o+KbOy1lgVguk44YsTO68jZa90xEZZosJO3DUp7t4HYoelil5thjhp1ceEK4X/19GouMzpQ==
+
 ci-info@^3.2.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.9.0.tgz#4279a62028a7b1f262f3473fc9605f5e218c59b4"

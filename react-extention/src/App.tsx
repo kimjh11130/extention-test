@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  Router,
+  getComponentStack,
+  getCurrent,
+} from 'react-chrome-extension-router';
+import FirstPage from './page/FirstPage';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    const { component, props } = getCurrent();
+    console.log(
+      component
+        ? `There is a component on the stack! ${component} with ${props}`
+        : `The current stack is empty so Router's direct children will be rendered`
+    );
+    const components = getComponentStack();
+    console.log(`The stack has ${components.length} components on the stack`);
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <FirstPage />
+    </Router>
   );
 }
 
