@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["scripts/inject.js"]
+      "js": ["scripts/inject.ts"]
     }
   ]
 }
