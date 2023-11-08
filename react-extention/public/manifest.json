@@ -7,5 +7,6 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "아이콘 호버 시 출력할 메시지"
-  }
+  },
+  "permissions": ["activeTab", "tabs"]
 }
