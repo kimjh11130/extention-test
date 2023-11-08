@@ -1,6 +1,7 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+  "description": "I made it vite!",
   "manifest_version": 3,
   "version": "1.0.0",
   "action": {

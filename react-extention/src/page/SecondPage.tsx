@@ -1,9 +1,10 @@
 import { goBack, goTo } from 'react-chrome-extension-router';
 import ThirdPage from './ThirdPage';
 import styled from 'styled-components';
+import { getCurrentTab } from '../util/asdf';
 
 const SecondPage = ({ message }: any) => {
-  console.log(window.location.href);
+  getCurrentTab();
   return (
     <Container>
       This is component SecondPage. I was passed a message:
