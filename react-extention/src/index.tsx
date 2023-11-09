@@ -1,5 +1,6 @@
 import * as ReactDOM from 'react-dom';
 import App from './App';
+import './index.css';
 
 const Index = () => {
   return <App />;

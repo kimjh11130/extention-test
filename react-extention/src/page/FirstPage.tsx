@@ -23,10 +23,8 @@ const FirstPage = () => {
   console.log(currentUrl);
   return (
     <div
+      className='flex flex-col gap-5'
       style={{
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '50px',
         width: '300px',
         height: '600px',
       }}
